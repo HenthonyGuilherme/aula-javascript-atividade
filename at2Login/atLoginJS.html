@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade de fixação 01 - DOM</title>
+    <script src="atLoginJS.js" defer></script>
+    <style>
+        div{
+            border: solid 3px green;
+            width: 400px;
+            padding: 10px;
+        }
+        h1{text-align: center;}
+        label{margin: 0 10px 0 0;}
+        input{margin: 10px 0;}
+        button{margin: 10px 30%;}
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Tela de Login</h1>
+
+        <label>Usuário</label>
+        <input type="text" name="txt" id="txt" maxlength="100"><br>
+
+        <label>Senha</label>
+        <input type="password" name="senha" id="senha" maxlength="6">
+        
+
+        <button onclick="minhaFuncao()" type="submit">Fazer Login</button>
+        
+
+        <p id="p"></p>
+    </div>
+    
+</body>
+</html>
